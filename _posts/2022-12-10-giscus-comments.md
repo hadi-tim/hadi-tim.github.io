@@ -38,7 +38,7 @@ In order to run SU modules, an X window server will be needed. in our case I use
 ### Installing Seismic Unix
 Before installing SU, we need to set some environment variables. Add following commands to your profile like .zshrc or .bashrc.
 
-```Shell
+``` Shell
 export CWPROOT=$HOME
 ```
 ```Shell
