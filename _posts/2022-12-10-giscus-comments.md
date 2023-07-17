@@ -48,17 +48,17 @@ Get SU files from [Seismic-unix.org](https://wiki.seismic-unix.org/doku.php). He
 
 Copy the file to $HOME and unzip it by:
 
-```Shell
+```sh
 mv /mnt/c/Users/lzhao/Downloads/cwp_su_all_44R26.tgz ~
 ```
-```Shell
+```sh
 tar xvf cwp_su_all_44R26.tgz
 ```
 After extracting the folder of SU a correction need to be made to the config file:
-```Shell
+```sh
 cd src
 ```
-```Shell 
+```sh 
 mv Makefile.config Makefile.config.old
 ```
 ```Shell
@@ -66,11 +66,11 @@ cp ./configs/Makefile.config_Linux_x86_64 ./Makefile.config
 ```
 Installing some packages necessary for Seismic Unix.
 
-```Shell
+```sh
 sudo apt install build-essential
 ```
 
-```Shell
+```sh
 sudo apt install gfortran
 sudo apt install libx11-dev
 sudo apt install libxt-dev
@@ -82,13 +82,13 @@ sudo apt install x11proto-print-dev
 sudo apt install libmotif-dev
 ```
 Finally we will install Seismic Unix:
-```Shell
+```sh
 make install make xtinstall
 make finstall
 ```
 Seismic Unix Should be installed successfully without errors, please ignore the warning messages.
 In order to check run the command below:
-```Shell
+```sh
 suplane | suximage title="test"
 ```
 **CONGRATULATIONS ON YOUR FIRST SEISMIC UNIX DISPLAY!!!** :satisfied:
@@ -118,7 +118,7 @@ graph TD;
 ```
 #### **Reading and viewing seismic data**
 As mentionned before at the beginning of thes notes, our data is in SEGY format and need to be converted to SU format. This is done via:
-```Shell
+```sh
 segyread tape=Line_001.sgy endian=0 |suwind key="trid" min="1" > data.su
 ```
 In addition to conversion the code above removes the Auxilliary channels,using key `trid` and `min=1`\
@@ -128,7 +128,7 @@ trid: Trace identification\
 1 = Seismic data\
 
 We may use **`surange`** to see if the header settings are correct as shown below:
-```Shell
+```sh
 surange < data.su
 ```
 <img src="https://user-images.githubusercontent.com/124686555/234352239-7417ed65-2d3a-45f2-b294-3b718d3454d6.png" width="700" height="500">
@@ -136,7 +136,7 @@ surange < data.su
 #### **Windowing and viewing data**
 As an example, the code below run a display in wiggles for one shot gather `shot gather FFID#231`. It is always a good idea to look at some small part of the data to check if data exists. 
 
-```Shell
+```sh
 suwind key=fldr min=231 max=231 < seismic.su | suximage perc=99 &
 ```
 
@@ -310,7 +310,7 @@ with open('geometry.txt', 'w', newline='\n') as f:
 ```
 Before proceeding to the geometry, we need to convert the geometry information from the text file into a binary format, then load the binary information into data to apply the geometry.
 
-```Shell
+```sh
 a2b < geometry.txt n1=9 > myheaders.bin
 ```
 n1=9 indicates number of columns in the geometry text file. After appying the geometry we can notice that headers are correctly updated including the offset and X 1 Y coordinates.
@@ -319,7 +319,7 @@ n1=9 indicates number of columns in the geometry text file. After appying the ge
 
 #### **Viewing shot gathers QC**
 
-```Shell
+```sh
 suwind key=ep min=100 max=100 < data_geom2.su | suximage key=offset cmap=hsv4 perc=90\
                 title="shot100 after geometry" label1="Time(s)" label2="Offsset(m)"  &
 ```
