@@ -168,7 +168,7 @@ I worked on another Python script which uses the SPS information as input and ou
 ### Python code for geometry headers update
 Below is the code to run in a Python environment.
 
-```Python
+```python
 import os
 os.chdir(r'C:\Seismic Processing\Seismic_data\2D_Land_vibro_data_2ms')
 import math
