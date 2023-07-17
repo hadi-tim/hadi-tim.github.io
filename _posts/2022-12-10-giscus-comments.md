@@ -38,10 +38,10 @@ In order to run SU modules, an X window server will be needed. in our case I use
 ### Installing Seismic Unix
 Before installing SU, we need to set some environment variables. Add following commands to your profile like .zshrc or .bashrc.
 
-``` Shell
+```sh
 export CWPROOT=$HOME
 ```
-```Shell
+```bash
 export PATH=$PATH:$HOME/bin
 ```
 Get SU files from [Seismic-unix.org](https://wiki.seismic-unix.org/doku.php). Here we download the latest version of SU cwp_su_all_44R23.tgz.
