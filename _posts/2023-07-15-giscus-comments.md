@@ -30,7 +30,7 @@ The sweep parameters are the following:
 - end frequency: 95 Hz
 
 Function below simply plot the sweep using Matplotlib Python library.
-```python
+~~~ python
 import pandas as pd 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -46,7 +46,8 @@ def plot_sweep(file):
     plt.ylabel('amplitude')
     plt.show()
 plot_sweep('sweep.csv')
-```
+~~~
+
 ![sweep2](/assets/img/sweep.png){:width="80%"}
 
 
