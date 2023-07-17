@@ -7,7 +7,7 @@ categories: #sample-posts external-services
 giscus_comments: true
 related_posts: false
 ---
-# Table of contents
+### Table of contents
 * [How to install Seismic Unix on Windows](#how-to-install-seismic-unix-on-windows)
 * [Ubuntu on Windows](#ubuntu-on-windows)
 * [Installing Xming Server](#installing-xming-server)
@@ -26,16 +26,16 @@ related_posts: false
   * [Deconvolution](#deconvolution)
   * [Velocity Analysis](#velocity-analysis)
  
-## How to install Seismic Unix on Windows
+### **How to install Seismic Unix on Windows**
 This tutorial will illustrate step by step on how to process seismic data using Seismic Unix. Before starting our Seismic Data Processing journey, some installations need to be made. We will go through all**
-## Ubuntu on Windows
+### **Ubuntu on Windows**
 
 The perfect thing to do is to install a Linux partition in your machine (laptop or desktop). In my case I installed Ubuntu [WSL](https://ubuntu.com/wsl) which is a complete Ubuntu terminal environment in on Windows, which is called Windows Subsystem for Linux (WSL)
 
-## Installing Xming Server
+### **Installing Xming Server**
 In order to run SU modules, an X window server will be needed. in our case I used Xming, which need to be launched after installing Seismic Unix. Here is the [Xming server website for download](http://www.straightrunning.com/XmingNotes/)
 
-## Installing Seismic Unix
+### Installing Seismic Unix
 Before installing SU, we need to set some environment variables. Add following commands to your profile like .zshrc or .bashrc.
 
 ```Shell
@@ -92,7 +92,7 @@ In order to check run the command below:
 suplane | suximage title="test"
 ```
 **CONGRATULATIONS ON YOUR FIRST SEISMIC UNIX DISPLAY!!!** :satisfied:
-## Seismic processing of 2D line
+### **Seismic processing of 2D line**
 For this tutorial we are going to explain step by step on how to process 2D seismic data using Seismic Unix. The data for this document can be accessed for free [here!](https://dataunderground.org/dataset/poland-vibroseis/resource/96dfd0be-61c8-4edb-9d04-c7d2aeb16d27).
 Below is the proposed processing flow chart that we will follow.
 
@@ -116,7 +116,7 @@ graph TD;
     N-->O(Migration)
 
 ```
-### Reading and viewing seismic data
+#### **Reading and viewing seismic data**
 As mentionned before at the beginning of thes notes, our data is in SEGY format and need to be converted to SU format. This is done via:
 ```Shell
 segyread tape=Line_001.sgy endian=0 |suwind key="trid" min="1" > data.su
@@ -133,7 +133,7 @@ surange < data.su
 ```
 <img src="https://user-images.githubusercontent.com/124686555/234352239-7417ed65-2d3a-45f2-b294-3b718d3454d6.png" width="700" height="500">
 
-#### Windowing and viewing data
+#### **Windowing and viewing data**
 As an example, the code below run a display in wiggles for one shot gather `shot gather FFID#231`. It is always a good idea to look at some small part of the data to check if data exists. 
 
 ```Shell
@@ -142,7 +142,7 @@ suwind key=fldr min=231 max=231 < seismic.su | suximage perc=99 &
 
 <img src="https://user-images.githubusercontent.com/124686555/234355282-6d04788f-ac47-47b7-8a4b-7281738021de.png" width="700">
 
-### Setting geometry
+#### **Setting geometry**
 Geometry definition is one of the most time consuming in processing especially for 2D data. This process is for converting the observed field parameters recorded in observer logs into trace headers.
 I wrote the Python code below `sps_check.ipynb` to check the SPS information regarding, total number of shots, total number of receivers...etc.\
 The program output the following information:
@@ -165,7 +165,7 @@ I worked on another Python script which uses the SPS information as input and ou
 
 
 
-### Python code for geometry headers update
+#### **Python code for geometry headers update**
 Below is the code to run in a Python environment.
 
 ```python
@@ -317,7 +317,7 @@ n1=9 indicates number of columns in the geometry text file. After appying the ge
 
 ![surange_after_geom](https://user-images.githubusercontent.com/124686555/234369239-5789a888-ba74-4da9-87cf-50555bc8823d.png)
 
-### Viewing shot gathers QC
+#### **Viewing shot gathers QC**
 
 ```Shell
 suwind key=ep min=100 max=100 < data_geom2.su | suximage key=offset cmap=hsv4 perc=90\
@@ -352,7 +352,7 @@ gv SrcRcv_loc_map.ps
 
 <img src="https://user-images.githubusercontent.com/124686555/234381419-9f76a478-76a2-4482-9c09-303f75a0cece.png" >
 
-### CMP locations QC and binning
+#### **CMP locations QC and binning**
 
 It is well known that a straight 2D line, a CMP location is defined as the midpoint between the source and the receiver locations. On a crooked line (our case), CMPs may do not lie on the line of source and receiver.\
 So, let’s plot the CMPs locations using same script as before. But this time calculating the midpoint locations of CMPs using the provided information in the geometry text file.
@@ -414,12 +414,12 @@ gv crookedLine_bining.ps
 <img src="https://user-images.githubusercontent.com/124686555/234390895-f5e2a4c2-3ec3-402f-88e7-be505b4c15d8.png" height="500" width="800">
 
 
-### Sort data to CMP
+#### **Sort data to CMP**
 To sort the data from shot to cmp domain we use `susort`:
 ```sh
 susort cdp offset < data.su
 ```
-### Gain testing
+#### **Gain testing**
 ```sh
 #!/bin/sh
 
@@ -437,7 +437,7 @@ sugain < data_geom_ep32.su tpow=.5 | suxwigb title="square root t factor applied
 ```
 <img src="https://user-images.githubusercontent.com/124686555/235467240-7bed593a-7e4a-4dcc-a476-0f54fa93c1c9.png" height="600">
 
-### NMO Correction and brute stack
+#### **NMO Correction and brute stack**
 As a preliminary step, we can run the brute stack flow in this stage as a QC and in order to compare with further stacks as we move forward in our processing.
 the stack has an AGC applied.
 ```sh
@@ -450,7 +450,7 @@ suximage < stack.su cmp=hsv5 title="Brute stack V0" perc=90 &
 ```
 <img src="https://user-images.githubusercontent.com/124686555/235463368-c08ac25d-0cd4-4f99-a4e9-4220a88b4b7a.png" height="400" width="800">
 
-### Filtering in the (F-k) domain
+#### **Filtering in the (F-k) domain**
 To attenuate the coherent noise such as ground roll, we used (f, k) filetering as a first step as it targets the linear noise taking into consideration the slope or the dip of the event.\
 For this purpose I did numerous tests on one shot gather. Once you are satisfied with the result, you can run the (f;k) filter on the whole data as showed in the script below.\
 ```sh
@@ -472,7 +472,7 @@ The images below shows the shots before, after and the rejected data, respective
 <img src="https://user-images.githubusercontent.com/124686555/235469828-6052f000-58e3-46a6-88d2-eb789e0b2415.png" height="400" width="800">
 <img src="https://user-images.githubusercontent.com/124686555/235469868-c81c34d3-13f5-4aa0-8e85-9227603dcdfb.png" height="400" width="800">
 
-### Band Pass Filter testing
+#### **Band Pass Filter testing**
 before proceeding to BPF, it is important to know the frequency content of our data byt transfromfing our data from (x,t) domain to (x,f) domain, where Frequency is on the vertical scale, and trace number is on the horizontal.
 ```sh
 suspecfx < stk_fk.su | suximage key=cdp title="F-X SPECTRUM" label2="CMP" label1="Frequency (Hz)" cmap="hsv2" bclip=45
@@ -498,7 +498,7 @@ In order to QC the output before and after the BPF, let’s check the stacks bef
 
 <img src="https://user-images.githubusercontent.com/124686555/235498056-bacdef8a-0f93-4050-ac6f-031c779a0c3b.png" height="450" width="800">
 
-### Deconvolution
+#### **Deconvolution**
 Deconvolution in an inverse process which consists of removing the effect of the waveform. Basically we  process of removing the
 effect of a waveform, to produce a desired output. In practice the objectif is to achieve a better estimate of the gelogical layers in term of increasing the temporal resolution of the reflector.\
 Before proceeding to deconvolution, first we need to perfoem the autocorrelation to have a better estimate of the deconvolution parameters and undestanding the the multiple energy behavior.
@@ -555,7 +555,7 @@ rm -f tmp*
 <img src="https://user-images.githubusercontent.com/124686555/235521740-79a87306-648f-4188-bca4-dfb0225f8252.png" width="800">
 <img src="https://user-images.githubusercontent.com/124686555/235521754-e5bc59a2-bd8c-44f8-9891-9370f68cfeb9.png" width="800">
 
-### Velocity Analysis
+#### **Velocity Analysis**
 A script made by John W. Stockwell; [iva.sh](https://github.com/hadi-tim/sdp-seismic-unix/blob/main/script/iva.sh) a Copyright (c) Colorado School of Mines. This script provide an interactive velocity picking session. It will first ask the user to input number of picks. You are then asked to state the CMP number for the first pick, then it will diplay three plots:
 * Semblance plot of the selected CMP number
 * Plot of the selected CMP gather
@@ -572,8 +572,6 @@ The first pass of velocity picking showed a good stack result. The pictures belo
 <img src="https://user-images.githubusercontent.com/124686555/235539403-e12f9d99-f06e-44c9-a65d-6bde1082771f.png" width="600">
 
 <img src="https://user-images.githubusercontent.com/124686555/235539412-e6281920-3661-428f-aac8-799744026035.png" width="600">
-
-</details>
 
 <!--
   <<< Author notes: Footer >>>
