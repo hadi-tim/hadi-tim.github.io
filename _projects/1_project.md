@@ -47,29 +47,7 @@ Saudi Aramco, Sahba II 3D block. East of Saudi Arabia | Uniq-3D, high productivi
 Lukoil 2D Iraq, Land vibroseis and dynamite seismic | Seismic data processing in time and depth imaging, AVO modeling  | `2019` | Lukoil, INPEX
 Lukoil 3D Block10 Iraq, Land vibroseis seismic | Seismic data processing in time, depth imaging, AVO modeling, prestack seismic inversion. | `2020` | Lukoil, INPEX
 {: .tablelines}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-
-> Pictures from my Land seismic assignements and some trainings.
-
-
-
-=======
-\
->>>>>>> ed810d9 (Update 1_project.md)
-=======
-</br>
->>>>>>> a2eeb22 (Update 1_project.md)
-=======
-
-\
->>>>>>> ed810d9 (Update 1_project.md)
-=======
-</br>
->>>>>>> a2eeb22 (Update 1_project.md)
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
