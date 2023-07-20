@@ -18,11 +18,12 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <p align="justify"> 
-  Hi, my name is Hadi, a <b>Geophysicist</b> with 15 years of broad-based international experience in the Oil and Gas industry, a passionate about Data Science and Machine Learning. Led and collaborated in multiple projects around the world     
-  including UK Offshore, North Africa and Middle East. Proficient in 2D/3D seismic data acquisition, seismic data processing and project management, as well as Shell scripting and Python programming for Automation and QC/QA tasks.
-  During my journey, I have processed and delivered various High Resolution 2D & 3D seismic projects. Multi-disciplinary collaboration in depth imaging and AVO/reservoir analysis, where I used state of the art processing tools and latest 
-  workflows that address complex subsurface challenges. Recently gained good experience in programming and analyzing data using Python. Contributing and challenging myself trough GitHub community by sharing Python codes on Data Analysis and 
-  Seismic Data Processing. Please check out my user profile on <a href="https://github.com/hadi-tim">GitHub</a> and <a href="https://github.com/hadi-tim?tab=repositories">my portfolio website</a>.
+  Hi, my name is Hadi, a <b>Geophysicist</b>. I have 15 years experience in the Oil and Gas industry, covering planning and processing of numerous modern high fold 3D seismic surveys using state of the art processing tools and workflows for 
+  controlled phase and controlled amplitude processing, signal and noise processing, velocities/statics, seismic attributes, and anisotropic time processing. In addition, multi-disciplinary collaboration in depth imaging and AVO/reservoir 
+  analysis. I have Led and collaborated in multiple projects in UK Offshore, North Africa and Middle East, where I have processed and delivered various High Resolution 2D & 3D seismic surveys and addressing complex subsurface challenges.
+  I am passionate about Python programming, Data Science and Machine Learning in the field of Geosciences.Recently, I gained good experience in programming and analyzing data using Python. Contributing and challenging myself trough GitHub 
+  community by sharing Python codes on Data Analysis and Seismic Data Processing. Please check out my user profile on <a href="https://github.com/hadi-tim">GitHub</a> and <a href="https://github.com/hadi-tim?tab=repositories">my portfolio 
+  website</a>.
 </p>
 
 __My skills including__:
