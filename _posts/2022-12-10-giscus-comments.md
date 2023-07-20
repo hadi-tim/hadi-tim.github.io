@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Seismic Data Processing using Seismic Unix
-date: 2022-12-10 11:59:00-0400
+date: 2022-12-10 11:59:00+0100
 description: #an example of a blog post with giscus comments
 categories: #sample-posts external-services
 giscus_comments: true
