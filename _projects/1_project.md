@@ -61,8 +61,7 @@ Several 2D and 3D seismic surveys | - In Amina 3D, -Hassi Messaoud 3D, - Reggane
 
 | Cat pics                            | Dog pics                            | Lizzard                                     |
 | ----------------------------------- | ----------------------------------- | ------------------------------------------- |
-| ![cat](https://example.com/cat.png) | ![dog](https://example.com/dog.png) | ![lizzard](https://example.com/lizzard.png) |
-
+| ![cat](/assets/img/2.jpg) | ![dog](/assets/img/4.jpg) | ![lizzard](/assets/img/6.jpg) |
 
 
 
