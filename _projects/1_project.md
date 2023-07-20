@@ -62,18 +62,18 @@ Several 2D and 3D seismic surveys | - In Amina 3D, -Hassi Messaoud 3D, - Reggane
 <div class="container-md">
     <div class="row">
         <div class="col-sm mt-3 mt-md-0">
-                <img src="/assets/img/2.jpg" alt="your-image-description" class="img-fluid">
+                <img src="https://github.com/hadi-tim/hadi-tim.github.io/blob/0fb285c44b9f76000641065f430cab5b90dcea2c/assets/img/2.jpg" height="200" class="img-fluid">
         </div>
         <div class="col-sm mt-3 mt-md-0">
-                <img src="/assets/img/4.jpg" alt="your-image-description" class="img-fluid">
+                <img src="https://github.com/hadi-tim/hadi-tim.github.io/blob/a9115b71fa7d7ec3f57f35b46931498408d42052/assets/img/4.jpg" height="200" class="img-fluid">
         </div>
         <div class="col-sm mt-3 mt-md-0">
-                <img src="/assets/img/6.jpg" alt="your-image-description" class="img-fluid">
+                <img src="https://github.com/hadi-tim/hadi-tim.github.io/blob/a9115b71fa7d7ec3f57f35b46931498408d42052/assets/img/6.jpg" height="200" class="img-fluid">
         </div>
     </div>
 </div>
 
-<img src="https://github.com/hadi-tim/hadi-tim.github.io/blob/0fb285c44b9f76000641065f430cab5b90dcea2c/assets/img/2.jpg" width="700" height="500">
+
 
 
 <div class="caption">
