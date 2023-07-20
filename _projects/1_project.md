@@ -73,7 +73,7 @@ Several 2D and 3D seismic surveys | - In Amina 3D, -Hassi Messaoud 3D, - Reggane
     </div>
 </div>
 
-<img src="https://user-images.githubusercontent.com/124686555/234352239-7417ed65-2d3a-45f2-b294-3b718d3454d6.png" width="700" height="500">
+<img src="https://github.com/hadi-tim/hadi-tim.github.io/blob/0fb285c44b9f76000641065f430cab5b90dcea2c/assets/img/2.jpg" width="700" height="500">
 
 
 <div class="caption">
