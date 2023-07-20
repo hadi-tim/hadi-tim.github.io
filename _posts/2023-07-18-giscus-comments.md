@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Porcessing Production logs using Python and SQL
-date: 2023-07-18 11:59:00-0400
+date: 2023-07-18 11:59:00+0100
 description: #an example of a blog post with giscus comments
 categories: #sample-posts external-services
 giscus_comments: true
