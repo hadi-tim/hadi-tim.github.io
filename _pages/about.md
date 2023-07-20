@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='https://www.github.com/'>Geophysicist</a>. Algiers, Algeria.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   address: >
