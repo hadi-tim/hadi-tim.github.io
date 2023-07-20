@@ -47,17 +47,20 @@ Q-Land 3D Rourd Yakoub |3D seismic Orthogonal geometry | `2010 - 2012` | E.ON Ru
 Several 2D and 3D seismic surveys | - In Amina 3D, -Hassi Messaoud 3D, - Reggane 2D/3D, - Sbaa 3D | `2005 - 2009` | Gazprom, Rosneft, BP, Shell, Total, GDF, SONATRACH
 {: .tablelines}
 <br>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-xl mt-3 mt-md-0">
-        {% include figure.html path="assets/img/4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-xl mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="container">
+        <div class="row">
+            <div class="col-sm mt-3 mt-md-0">
+                {% include figure.html path="assets/img/2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            </div>
+            <div class="col-xl mt-3 mt-md-0">
+                {% include figure.html path="assets/img/4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            </div>
+            <div class="col-xl mt-3 mt-md-0">
+                {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            </div>
+        </div>
 </div>
+
 
 
 <div class="caption">
