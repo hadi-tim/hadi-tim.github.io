@@ -6,7 +6,7 @@ subtitle: <a href='https://www.github.com/'>Geophysicist</a>. Algiers, Algeria.
 
 profile:
   align: right
-  image: prof_pic1.jpg
+  image: me.jpg
   image_circular: false # crops the image to make it circular
   address: >
    <p style="text-align:center;"> Scotland, Aberdeen</p>
@@ -16,7 +16,6 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
 
 <p align="justify"> 
   Hi, my name is Hadi, a <b>Geophysicist</b> with 15 years of broad-based international experience in the Oil and Gas industry, a passionate about Data Science and Machine Learning. Led and collaborated in multiple projects around the world     
