@@ -62,13 +62,13 @@ Several 2D and 3D seismic surveys | - In Amina 3D, -Hassi Messaoud 3D, - Reggane
 <div class="container-md">
     <div class="row">
         <div class="col-sm mt-3 mt-md-0">
-                {% include figure.html path="assets/img/2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+                <img src="assets/img/2.jpg" alt="your-image-description" class="img-fluid">
         </div>
         <div class="col-sm mt-3 mt-md-0">
-                {% include figure.html path="assets/img/4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+                <img src="assets/img/4.jpg" alt="your-image-description" class="img-fluid">
         </div>
         <div class="col-sm mt-3 mt-md-0">
-                {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+                <img src="assets/img/6.jpg" alt="your-image-description" class="img-fluid">
         </div>
     </div>
 </div>
