@@ -59,11 +59,6 @@ Several 2D and 3D seismic surveys | - In Amina 3D, -Hassi Messaoud 3D, - Reggane
     </div>
 </div>
 
-|First Image|Second Image|
-|:-:|:-:|
-|![First Image](https://github.com/hadi-tim/hadi-tim.github.io/blob/3fb090c4a8dd9338848c797dcec6a96964552b36/assets/img/2.jpg)|![Second Image](https://github.com/hadi-tim/hadi-tim.github.io/blob/3fb090c4a8dd9338848c797dcec6a96964552b36/assets/img/4.jpg)|
-
-
 
 
 <div class="caption">
