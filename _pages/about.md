@@ -7,9 +7,9 @@ subtitle: <a href='https://www.github.com/'>Geophysicist</a>. Algiers, Algeria.
 profile:
   align: left
   image: prof_pic.jpg
-  image_circular: True # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
-    <p>Located in Scotland, Aberdeen</p>
+    <p>Scotland, Aberdeen</p>
 
   
 news: true  # includes a list of news items
