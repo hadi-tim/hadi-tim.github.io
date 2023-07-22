@@ -89,7 +89,7 @@
   contents:
     - title: <a href="https://github.com/hadi-tim/sdp-seismic-unix">Porcessing Seismic Production logs using Python and SQL</a>
       year: July 2023
-      description: Python codes using ElementTree Python module and SQL to parse the information of "XML format" production logs, process it and then output it in an excel file from the SQLite database file.
+      description: Python codes using ElementTree Python module and SQL to parse the information of "XML format" production logs, process it and then output it in an excel file from the SQLite database file for further QC.
     - title: <a href="https://github.com/hadi-tim/seismic-wavelet-processing">Seismic Wavelet Processing using Python</a>
       year: July 2023
       description: A repository of some basic codes showing the wavelet processing and some transforms carried out on a vibrator sweep. 
