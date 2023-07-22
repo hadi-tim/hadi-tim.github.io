@@ -25,12 +25,12 @@ social: true  # includes social icons at the bottom of the page
 
 My skills at work are focused on:
   <br>
+<p align="justify">
   <ul>
-    <li> <b> <p align="justify">
-                Advanced Land Seismic technology with High-Productivity & Broadband vibroseis methods:</b> Distance Separated Simultaneous Sweeping / Slip-Sweeping (DS3/DS4); Independent Simultaneous Sweeping (ISS), and 
-                Blended seismic acquisition (Simultaneous Source).
-             </p> 
+    <li> <b>Advanced Land Seismic technology with High-Productivity & Broadband vibroseis methods:</b> Distance Separated Simultaneous Sweeping / Slip-Sweeping (DS3/DS4); Independent Simultaneous Sweeping (ISS), and 
+            Blended seismic acquisition (Simultaneous Source).
     </li>
+</p> 
     <li> <b> <p align="justify"> Project Planning and Management: </b> Survey Design and Planning (OMNI 3D, iManage), Quality Control & Data Management backup (Omega).</p> </li>
     <li> <b> <p align="justify"> Advanced Noise Attenuation techniques: </b> Using multi-scale methods such as Curvelet Transforms, Cadzow filtering. Near surface characterization using Surface Waves Analysis Modelling and Inversion     
     (SWAMI).</p> </li>
