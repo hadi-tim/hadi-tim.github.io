@@ -84,13 +84,15 @@
       institution: Faculty of Hydrocarbons and Chemistry - University of Boumerdes, <b>Algeria</b>.
       year: Oct 2001
 
-- title: Open Source Projects
+- title: GitHub Coding Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/hadi-tim/Python-codes-repo">Github Python Repository</a>
-      year: 2023
-      description: A repository of the Python programming language, it iincludes python codes related to Data Analysis/Data Science for academics purposes.
-
+    - title: <a href="https://github.com/hadi-tim/sdp-seismic-unix">Porcessing Seismic Production logs using Python and SQL</a>
+      year: July 2023
+      description: Python codes using ElementTree Python module and SQL to parse the information of "XML format" production logs, process it and then output it in an excel file from the SQLite database file.
+    - title: <a href="https://github.com/hadi-tim/seismic-wavelet-processing">Seismic Wavelet Processing using Python</a>
+      year: July 2023
+      description: A repository of some basic codes showing the wavelet processing and some transforms carried out on a vibrator sweep. 
     - title: <a href="https://github.com/hadi-tim/sdp-seismic-unix">Seismic Data Processing using Seismic Unix</a>
-      year: 2023
-      description: A Github repository containing some tutorials on Seismic Data Processing using the open source software Seismic Unix.
+      year: Dec 2022
+      description: A Github repository illustrating step by step on how to process seismic data using the open source software Seismic Unix.
