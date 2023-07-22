@@ -25,6 +25,47 @@ social: true  # includes social icons at the bottom of the page
 
 My skills at work are focused on:
   <br>
+
+<ul>
+  <div align="justify">
+    <li>
+      <b>Advanced Land Seismic technology with High-Productivity & Broadband vibroseis methods:</b> Distance Separated Simultaneous Sweeping / Slip-Sweeping (DS3/DS4); Independent Simultaneous Sweeping (ISS), and 
+      Blended seismic acquisition (Simultaneous Source).
+    </li>
+  </div>
+  <div align="justify">
+    <li> 
+      <b>Project Planning and Management:</b> Survey Design and Planning (OMNI 3D, iManage), Quality Control & Data Management backup (Omega).
+    </li>
+  </div>
+  <div align="justify">
+    <li>
+      <b>Advanced Noise Attenuation techniques:</b> Using multi-scale methods such as Curvelet Transforms, Cadzow filtering. Near surface characterization using Surface Waves Analysis Modelling and Inversion     
+      (SWAMI).
+    </li>
+  </div>
+  <div align="justify">
+    <li>
+      <b>Effective data-driven multiple suppression:</b> Using 3D GSMP (Generalized Surface Multiple Prediction) and Extended Interbed Multiple Prediction (XIMP), in combination with the Adaptive substruction 
+      algorithm.
+    </li>
+  </div>
+  <div align="justify">
+    <li>
+      <b>Interpolation and regularization:</b> 5D Matching Pursuit Fourier Interpolation (MPFI) algorithm to reconstruct the missing data in the frequency domain.
+    </li>
+  </div>
+    
+</ul>
+
+
+<p align="justify"> 
+  In addition, I am passionate about Python programming, Data Science and Machine Learning in the field of Geosciences. Recently, I gained good experience in programming and data analysis using Python. Contributing and challenging myself 
+  trough GitHub 
+  community by sharing Python codes on Data Analysis and Seismic Data Processing. Please check out my user profile on <a href="https://github.com/hadi-tim">GitHub</a> and <a href="https://github.com/hadi-tim?tab=repositories">my portfolio 
+  website</a>.
+</p>
+
 <div align="justify">
   <ul>
     
@@ -49,11 +90,3 @@ My skills at work are focused on:
     
   </ul>
 </div>
-
-<p align="justify"> 
-  In addition, I am passionate about Python programming, Data Science and Machine Learning in the field of Geosciences. Recently, I gained good experience in programming and data analysis using Python. Contributing and challenging myself 
-  trough GitHub 
-  community by sharing Python codes on Data Analysis and Seismic Data Processing. Please check out my user profile on <a href="https://github.com/hadi-tim">GitHub</a> and <a href="https://github.com/hadi-tim?tab=repositories">my portfolio 
-  website</a>.
-</p>
-
