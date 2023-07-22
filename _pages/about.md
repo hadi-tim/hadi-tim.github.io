@@ -27,17 +27,28 @@ My skills at work are focused on:
   <br>
 <p align="justify">
   <ul>
-    <li> <b>Advanced Land Seismic technology with High-Productivity & Broadband vibroseis methods:</b> Distance Separated Simultaneous Sweeping / Slip-Sweeping (DS3/DS4); Independent Simultaneous Sweeping (ISS), and 
-            Blended seismic acquisition (Simultaneous Source).
+    
+    <li>
+      <b>Advanced Land Seismic technology with High-Productivity & Broadband vibroseis methods:</b> Distance Separated Simultaneous Sweeping / Slip-Sweeping (DS3/DS4); Independent Simultaneous Sweeping (ISS), and 
+      Blended seismic acquisition (Simultaneous Source).
     </li>
-</p> 
-    <li> <b> <p align="justify"> Project Planning and Management: </b> Survey Design and Planning (OMNI 3D, iManage), Quality Control & Data Management backup (Omega).</p> </li>
-    <li> <b> <p align="justify"> Advanced Noise Attenuation techniques: </b> Using multi-scale methods such as Curvelet Transforms, Cadzow filtering. Near surface characterization using Surface Waves Analysis Modelling and Inversion     
-    (SWAMI).</p> </li>
-    <li> <b> <p align="justify"> Effective data-driven multiple suppression: </b> Using 3D GSMP (Generalized Surface Multiple Prediction) and Extended Interbed Multiple Prediction (XIMP), in combination with the Adaptive substruction 
-    algorithm.</p> </li>
-    <li> <b> <p align="justify"> Interpolation and regularization: </b> 5D Matching Pursuit Fourier Interpolation (MPFI) algorithm to reconstruct the missing data in the frequency domain.</p> </li>
+    <li> 
+      <b>Project Planning and Management:</b> Survey Design and Planning (OMNI 3D, iManage), Quality Control & Data Management backup (Omega).
+    </li>
+    <li>
+      <b>Advanced Noise Attenuation techniques:</b> Using multi-scale methods such as Curvelet Transforms, Cadzow filtering. Near surface characterization using Surface Waves Analysis Modelling and Inversion     
+      (SWAMI).
+    </li>
+    <li>
+      <b>Effective data-driven multiple suppression:</b> Using 3D GSMP (Generalized Surface Multiple Prediction) and Extended Interbed Multiple Prediction (XIMP), in combination with the Adaptive substruction 
+      algorithm.
+    </li>
+    <li>
+      <b>Interpolation and regularization:</b> 5D Matching Pursuit Fourier Interpolation (MPFI) algorithm to reconstruct the missing data in the frequency domain.
+    </li>
+    
   </ul>
+</p>
 
 <p align="justify"> 
   In addition, I am passionate about Python programming, Data Science and Machine Learning in the field of Geosciences. Recently, I gained good experience in programming and data analysis using Python. Contributing and challenging myself 
