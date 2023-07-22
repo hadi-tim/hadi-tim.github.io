@@ -25,7 +25,7 @@ social: true  # includes social icons at the bottom of the page
 
 My skills at work are focused on:
   <br>
-<p align="justify">
+<div align="justify">
   <ul>
     
     <li>
@@ -48,7 +48,7 @@ My skills at work are focused on:
     </li>
     
   </ul>
-</p>
+</div>
 
 <p align="justify"> 
   In addition, I am passionate about Python programming, Data Science and Machine Learning in the field of Geosciences. Recently, I gained good experience in programming and data analysis using Python. Contributing and challenging myself 
