@@ -114,7 +114,6 @@ graph TD;
     L-->M(Mute)
     M-->N(Stack)
     N-->O(Migration)
-
 ```
 #### **Reading and viewing seismic data**
 As mentionned before at the beginning of thes notes, our data is in SEGY format and need to be converted to SU format. This is done via:
