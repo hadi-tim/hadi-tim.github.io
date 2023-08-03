@@ -97,6 +97,7 @@ For this tutorial we are going to explain step by step on how to process 2D seis
 Below is the proposed processing flow chart that we will follow.
 
 <div class="mermaid">
+	centered content
 	graph TD;
 	    A(SEGY Input)-->B(Coonvert to SU format);
 	    B-->C(Geometry update);
