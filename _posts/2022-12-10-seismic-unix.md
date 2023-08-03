@@ -435,7 +435,7 @@ sugain < data_geom_ep32.su mbal=1 | suxwigb title="traces balanced by mean" &
 sugain < data_geom_ep32.su tpow=2 | suxwigb title="t squared factor applied" &
 sugain < data_geom_ep32.su tpow=.5 | suxwigb title="square root t factor applied" &
 ```
-<img src="https://user-images.githubusercontent.com/124686555/235467240-7bed593a-7e4a-4dcc-a476-0f54fa93c1c9.png" height="600">
+<img src="https://user-images.githubusercontent.com/124686555/235467240-7bed593a-7e4a-4dcc-a476-0f54fa93c1c9.png" height="600" width="800">
 
 #### **NMO Correction and brute stack**
 As a preliminary step, we can run the brute stack flow in this stage as a QC and in order to compare with further stacks as we move forward in our processing.
