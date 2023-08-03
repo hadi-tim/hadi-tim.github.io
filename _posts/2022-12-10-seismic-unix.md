@@ -97,7 +97,7 @@ For this tutorial we are going to explain step by step on how to process 2D seis
 Below is the proposed processing flow chart that we will follow.
 
 ```mermaid
-graph TD;
+<pre class="mermaid"><code>graph TD;
     A(SEGY Input)-->B(Coonvert to SU format);
     B-->C(Geometry update);
     C-->D(Shot gathers QC);
@@ -113,7 +113,7 @@ graph TD;
     J-->L;
     L-->M(Mute)
     M-->N(Stack)
-    N-->O(Migration)
+    N-->O(Migration);</code></pre>
 ```
 #### **Reading and viewing seismic data**
 As mentionned before at the beginning of thes notes, our data is in SEGY format and need to be converted to SU format. This is done via:
