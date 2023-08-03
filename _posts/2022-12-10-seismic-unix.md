@@ -350,7 +350,7 @@ gv SrcRcv_loc_map.ps
 ```
 
 
-<img src="https://user-images.githubusercontent.com/124686555/234381419-9f76a478-76a2-4482-9c09-303f75a0cece.png" >
+<img src="https://user-images.githubusercontent.com/124686555/234381419-9f76a478-76a2-4482-9c09-303f75a0cece.png" width="700">
 
 #### **CMP locations QC and binning**
 
@@ -372,7 +372,7 @@ Let's plot via the command:
 ```sh
 gv SrcRcvCmp_loc_map.ps
 ```
-<img src="https://user-images.githubusercontent.com/124686555/234388018-59f9db96-d83f-4769-adca-c2d6a4014f6e.png">
+<img src="https://user-images.githubusercontent.com/124686555/234388018-59f9db96-d83f-4769-adca-c2d6a4014f6e.png" width="700">
 
 It is well noticed in the graph that we are dealing with a crooked line, CMPs are not falling between source and receiver, so a a possible solution to this is to do binning. let's tak teh receiver line, then we can project all actual CMP locations to the nearest point on the receiver line.\
 In order to choose the best parameter for the maximum offset distance between a cmp location and the cmp line which is supposed to be the `receiver line`. After several tests as described int the shell script, the Maximum offline distance that we choose is 200m.
