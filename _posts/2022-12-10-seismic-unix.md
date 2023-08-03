@@ -97,24 +97,23 @@ For this tutorial we are going to explain step by step on how to process 2D seis
 Below is the proposed processing flow chart that we will follow.
 
 <div class="mermaid">
-	centered content
-	graph TD;
-	    A(SEGY Input)-->B(Coonvert to SU format);
-	    B-->C(Geometry update);
-	    C-->D(Shot gathers QC);
-	    C-->E(Elevation Statics);
-	    D-->E;
-	    E-->F(Trace Editing);
-	    F-->G(Ground roll removal, F-K filter);
-	    G-->H(Deconvolution);
-	    H-->I(Band Pass Filter);
-	    I-->J(CMP Sort);
-	    J-->K(Velocity Analysis);
-	    K-->L(NMO Correction);
-	    J-->L;
-	    L-->M(Mute)
-	    M-->N(Stack)
-	    N-->O(Migration)
+graph TD;
+    A(SEGY Input)-->B(Coonvert to SU format);
+    B-->C(Geometry update);
+    C-->D(Shot gathers QC);
+    C-->E(Elevation Statics);
+    D-->E;
+    E-->F(Trace Editing);
+    F-->G(Ground roll removal, F-K filter);
+    G-->H(Deconvolution);
+    H-->I(Band Pass Filter);
+    I-->J(CMP Sort);
+    J-->K(Velocity Analysis);
+    K-->L(NMO Correction);
+    J-->L;
+    L-->M(Mute)
+    M-->N(Stack)
+    N-->O(Migration)
 </div>
 
 #### **Reading and viewing seismic data**
