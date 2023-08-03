@@ -96,8 +96,8 @@ suplane | suximage title="test"
 For this tutorial we are going to explain step by step on how to process 2D seismic data using Seismic Unix. The data for this document can be accessed for free [here!](https://dataunderground.org/dataset/poland-vibroseis/resource/96dfd0be-61c8-4edb-9d04-c7d2aeb16d27).
 Below is the proposed processing flow chart that we will follow.
 
-
-<pre class="mermaid"><code>graph TD;
+```mermaid
+graph TD;
     A(SEGY Input)-->B(Coonvert to SU format);
     B-->C(Geometry update);
     C-->D(Shot gathers QC);
@@ -113,7 +113,8 @@ Below is the proposed processing flow chart that we will follow.
     J-->L;
     L-->M(Mute)
     M-->N(Stack)
-    N-->O(Migration);</code></pre>
+    N-->O(Migration)
+```
 
 #### **Reading and viewing seismic data**
 As mentionned before at the beginning of thes notes, our data is in SEGY format and need to be converted to SU format. This is done via:
